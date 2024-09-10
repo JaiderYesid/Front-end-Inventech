@@ -63,7 +63,7 @@ CREATE TABLE Producto(
 ID_Producto INT PRIMARY KEY AUTO_INCREMENT,
 Descripcion VARCHAR(45)COLLATE utf8mb4_unicode_ci NOT NULL,
 Precio FLOAT,
-Cantidad INT NOT NULL,
+Cantidad INT,
 Estado VARCHAR(45)COLLATE utf8mb4_unicode_ci NOT NULL,
 Nombre VARCHAR(45)COLLATE utf8mb4_unicode_ci NOT NULL,
 Stock INT,
